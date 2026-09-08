@@ -1,0 +1,4 @@
+# Nothing here is for readers. The onboarding bundles and the promo hash list
+# are fetched by the Pillar app, not browsed.
+User-agent: *
+Disallow: /
