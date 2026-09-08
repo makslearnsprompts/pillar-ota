@@ -43,6 +43,26 @@ scripts/deploy-ota-site.sh        # push this folder to the pages repo
 ```
 
 Version ids are **immutable** — publishing never overwrites `b/<v>/`, it adds a
-new one and repoints `version.json`. That is what makes a rollback a one-line
-edit of a small file rather than a re-upload, and it is why a device that has
-already downloaded a version can never have it change underneath it.
+new one and repoints `version.json`. That is why a device that has already
+downloaded a version can never have it change underneath it.
+
+## Rolling back
+
+**Editing `version.json` back to an older id does not roll anybody back.** The
+client asks one question, `candidate > local` — a plain string compare — so a
+device that already took the bad version sees the older id as "not newer" and
+keeps what it has. Verified on device, 2026-09-08. Repointing only helps
+installs that have not checked yet, which in an incident is the half you were
+not worried about.
+
+The rollback that works republishes the good payload under a **higher** id:
+
+```
+scripts/publish-onboarding.sh --rollback-to 2026-09-08-546e233
+scripts/deploy-ota-site.sh
+```
+
+It copies that bundle to `<current live id>-rN` — a suffix on a common prefix
+always sorts above it, so the result beats both what is live and what the
+affected devices are holding — regenerates the manifest, and repoints
+`version.json`. Payload byte-identical, id new.
