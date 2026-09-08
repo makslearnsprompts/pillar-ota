@@ -1,0 +1,27 @@
+{
+  "version": "2026-09-08-546e233-ota1",
+  "bridge": 1,
+  "minApp": "1.0.0",
+  "index": "index.html",
+  "files": [
+    { "path": "app-5DBTCZWO.js", "sha256": "6113b67d92789c552fbbcb91b75a1b60f618f8f6a78d07eca9d60a36a7a2fc81", "bytes": 124049 },
+    { "path": "app-HKAVNGUM.css", "sha256": "daaea52c4e23094a11197bdf668abb2680ef241fa4f0d476da2ef19c80d849ef", "bytes": 62270 },
+    { "path": "assets/airpods-listen-7XD7Q635.webp", "sha256": "19550bff01287454f58b08c591adc7de57db1db69a5b19429ba4e58e090b0404", "bytes": 43780 },
+    { "path": "assets/bell-HKA37B3X.webp", "sha256": "d2190d90a9fc85e0411921628cdfb10a4f3e9a8d691329d35be7ddcb29120d92", "bytes": 29920 },
+    { "path": "assets/idle.carryclipz-XH5UNCI4.png", "sha256": "4c48ed4d4302486ab77f2022506b72788593ebe236fe73e37370db26c3fde129", "bytes": 100367 },
+    { "path": "assets/nudge-frames-e5b0c179.mjs", "sha256": "e5b0c1795a376b22888d8c68a44b1c949e6db137fcd4ee8379e87121eb693270", "bytes": 884269 },
+    { "path": "assets/pose-in-love-VADDKU3C.webp", "sha256": "11c17ec2dc6fdd9684116949ef8b99f684cb139d90af4166406b713bef1fe298", "bytes": 49068 },
+    { "path": "assets/pose-long-day-KISI63A2.webp", "sha256": "b6f299499f5f96125522c136f17b767c0afe71dc6ddcbe5191d682ca6646ca08", "bytes": 49290 },
+    { "path": "assets/pose-measuring-XLPMI7JK.webp", "sha256": "a0809830b854c3569dcb36d1844bd1c759a80b3cbdb9dd9e50988fb8efc1054c", "bytes": 55622 },
+    { "path": "assets/pose-neck-ache-JVGNIGC5.webp", "sha256": "abff9d93c164203579a9353483543287d6823649326a3afacfb6c05db917e0f8", "bytes": 51664 },
+    { "path": "assets/pose-pointing-BWW4DJ4S.webp", "sha256": "71e5361c6fbd9b15b19d812da203df3d3002d0bc20ceb41dae5d5529a503cee4", "bytes": 51788 },
+    { "path": "assets/pose-spine-FZIAM622.webp", "sha256": "66732bf0623e7783b5ade2e2c0e719ea961905dee6cdd5d862e04cd40fa8238f", "bytes": 82206 },
+    { "path": "assets/pose-thinking-WDXTJM37.webp", "sha256": "207c6361cc19b4642f0f8513b6da7bd3d3f4767a3a30147928cbc4f047704c13", "bytes": 55866 },
+    { "path": "assets/pose-waving-RGB572B2.webp", "sha256": "139cc2e546930ab84065f3f63e8619fd14fa6154e5bb33d909aac9556c6b4d07", "bytes": 58072 },
+    { "path": "assets/reward.carryclipz-DOTGFVNQ.png", "sha256": "eeab30e0b80df909b02926a9485aee78617687401803bd1afa114494a018bede", "bytes": 110545 },
+    { "path": "assets/sit-normal-VVJRZZJG.webp", "sha256": "2d40b7613915162d831d6a4baf94fc5d17eb078036a86d06b02a77fb0d4b07ca", "bytes": 21898 },
+    { "path": "assets/sit-tall-LUW262NF.webp", "sha256": "523c0c88e80a2d076f981bbe57326d478e35bc3e5988c1bf2fdce18aeeefa55c", "bytes": 20330 },
+    { "path": "assets/slouch.carryclipz-JQAG3AD2.png", "sha256": "405ea85b3c4a03971a600bf4dcc229c8311df670dafebd9c791f1b8fd5eca995", "bytes": 118449 },
+    { "path": "index.html", "sha256": "a848bacf6721263d6ce6695766daad2be640bb14f4b93ed99673189501f74cae", "bytes": 1014 }
+  ]
+}
